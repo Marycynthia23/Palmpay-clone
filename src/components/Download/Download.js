@@ -19,11 +19,11 @@ const Download = () => {
             <div className={styles.DownloadBox}>
                 <div>
                     <img src={GooglePlayBlack} className={styles.googlePlayBlack} alt=""/>
-                    <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Licenced by CBN as a MMO</p><img src={cbn}/></div>
+                    <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Licenced by CBN as a MMO</p><img src={cbn} alt=""/></div>
                 </div>
                 <div>
                     <img src={appStoreBlack} className={styles.appStoreBlack} alt=""/>
-                    <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Deposits Insured by</p><img src={deposits}/></div>
+                    <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Deposits Insured by</p><img src={deposits} alt=""/></div>
                 </div>
             </div>
         </div>
