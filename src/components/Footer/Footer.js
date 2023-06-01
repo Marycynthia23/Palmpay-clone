@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className={styles.Col}>
         <li className={styles.FooterHeader}>Personal</li>
-        <li className={styles.ColList}><a href="" className={styles.ColLink}>PalmPay App</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>PalmPay App</a></li>
 
         </div>
         <div className={styles.Col}>
