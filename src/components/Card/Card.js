@@ -50,7 +50,6 @@ const Card = () => {
 
   return (
     <div >
-        
         <div className='Cards' >
         <Slider {...settings}>
             <div className='FeedBackPersonCont'>
@@ -58,7 +57,7 @@ const Card = () => {
                 <img src={user1} className='Users' alt="" /> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>I have never ever seen an online app that works smoothly without any hitches like PalmPay</p>
@@ -68,7 +67,7 @@ const Card = () => {
                 <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app is amazing, they are never out of rewards, coupons for transactions.</p>
@@ -77,7 +76,7 @@ const Card = () => {
                 <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app called palmpay is an amazing app that I love to use daily unlike others that charge too much</p>
@@ -89,7 +88,7 @@ const Card = () => {
                 <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app is amazing, they are never out of rewards, coupons for transactions.</p>

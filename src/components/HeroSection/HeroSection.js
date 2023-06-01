@@ -11,7 +11,7 @@ const HeroSection = () => {
             <p className={styles.HeroBoldText}>Digital <span className={styles.heroSpanText}>Finance</span><br/> That <span className={styles.heroSpanText}>Fits Your Life</span></p>
             <p className={styles.HeroMediumText}>An intuitive digital wallet with account opening, money transfer and bill payments in one. Earn as you spend.</p>
             <div className={styles.HeroBtnLinks}>
-                <img className={styles. googlePlayBlack} src={googlePlayBlack} alt="" />
+                <img className={styles.googlePlayBlack} src={googlePlayBlack} alt="" />
                 <img className={styles.appStoreBlack}src={appStoreBlack} alt=""/>
             </div>
         </div>

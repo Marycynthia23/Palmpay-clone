@@ -9,7 +9,7 @@ const Services = () => {
     <div className={styles.ServiceCont}>
         <div className={styles.ServiceOne}>
             <div className={styles.Serviceleft}>
-                <img src={EnjoyPayments}/>
+                <img src={EnjoyPayments} alt=""/>
             </div>
             <div className={styles.ServiceRight}>
             <p className={styles.ServiceBoldText}>Enjoy Fast And Reliable Payments</p>
@@ -25,7 +25,7 @@ const Services = () => {
                 <p className={styles.ServiceTwoBtn}>Get PalmPay</p>
             </div>
             <div className={styles.ServiceTwoRight}>
-                <img src={GetMore}/>
+                <img src={GetMore} alt=""/>
             </div>
         </div>
     </div>
