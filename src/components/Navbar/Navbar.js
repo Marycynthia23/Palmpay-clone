@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className={styles.NavCont}>
         <div className={styles.LogoDiv}>
-            <img src={logo} width="100%"/>
+            <img src={logo} width="100%" alt=""/>
         </div>
         <div className="hamburger-menu">
     {isOpen ? (
@@ -26,7 +26,7 @@ const Navbar = () => {
     )}
   </div>
         <ul className={styles.NavLinks}>
-            <li className={styles.NavList}><a className={styles.NavItem}>Personal <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></a>
+            <li className={styles.NavList}><a href="***" className={styles.NavItem}>Personal <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></a>
             <div className={styles.dropdownContent}>
                 <a href="***">PalmPay App <CgArrowLongRight className={styles.arrowRyt}
                  /></a>
@@ -34,8 +34,8 @@ const Navbar = () => {
                
             </div>
             </li>
-            <li className={styles.NavList}><a className={styles.NavItem}>Agents </a></li>
-            <li className={styles.NavList}><a className={styles.NavItem}>Company  <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></a>
+            <li className={styles.NavList}><a href="***" className={styles.NavItem}>Agents </a></li>
+            <li className={styles.NavList}><a href="***" className={styles.NavItem}>Company  <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></a>
             <div className={styles.dropdownContent}>
                 <a href="***">PalmPay App <CgArrowLongRight className={styles.arrowRyt}
                 
@@ -49,8 +49,8 @@ const Navbar = () => {
                
             </div>
             </li>
-            <li className={styles.NavList}><a className={styles.NavItem}>Press</a></li>
-            <li className={styles.NavList}><img src={NGN} width="30px" height="20px" /> <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></li>
+            <li className={styles.NavList}><a href="***" className={styles.NavItem}>Press</a></li>
+            <li className={styles.NavList}><img src={NGN} width="30px" height="20px" alt="" /> <MdArrowDropDown style={{color: "#C4C4C4", position: "absolute", top: "0.3rem"}}/></li>
         </ul>
     </div>
   )

@@ -18,17 +18,17 @@ const Download = () => {
             <p className={styles.DownloadContText}>Register and start transacting in less than 2 minutes.</p>
             <div className={styles.DownloadBox}>
                 <div>
-                    <img src={GooglePlayBlack} className={styles. googlePlayBlack}/>
+                    <img src={GooglePlayBlack} className={styles.googlePlayBlack} alt=""/>
                     <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Licenced by CBN as a MMO</p><img src={cbn}/></div>
                 </div>
                 <div>
-                    <img src={appStoreBlack} className={styles.appStoreBlack}/>
+                    <img src={appStoreBlack} className={styles.appStoreBlack} alt=""/>
                     <div className={styles.DownloadMiniCont}><p className={styles.DownloadSmallText}>Deposits Insured by</p><img src={deposits}/></div>
                 </div>
             </div>
         </div>
         <div className={styles.DownloadContRight}>
-            <img src={footerPhone}/>
+            <img src={footerPhone} alt=""/>
         </div>
     </div>
   )
