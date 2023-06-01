@@ -1,0 +1,155 @@
+.HeroCont{
+    margin: 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    color: #4a4a4a;
+    padding: 1rem 8rem 0.1rem 9.2rem;
+
+    
+}
+.HeroLeft{
+    width: 50%;
+    font-size: 52px;
+    text-align: left;
+    margin-bottom: 7rem;
+}
+.HeroBoldText{
+    color: #202046;
+    font-weight: 400;
+    margin: 0;
+    line-height: 67px;
+}
+.heroSpanText{
+    padding-top: 0;
+    color: #202046;
+    font-weight: 600;
+}
+.HeroMediumText{
+    color: #202046;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.HeroBtnLinks{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 50px;
+    padding: 15px 0px;
+}
+.googlePlayBlack,
+.appStoreBlack{
+width: 13.7rem;
+/* margin-right: 40px; */
+}
+.mockupOne{
+    width: 97%;
+}
+@media screen and (max-width: 780px) {
+    .HeroCont{
+        padding: 1rem 2.5rem 0.1rem 3rem;
+    
+        
+    }
+    .HeroLeft{
+        font-size: 42px;
+    }
+   
+    .heroSpanText{
+        padding-top: 0;
+        color: #202046;
+        font-weight: 600;
+    }
+    .HeroMediumText{
+        font-size: 1.1rem;
+    }
+    .HeroBtnLinks{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 20px;
+        padding: 12px 0px;
+    }
+    .googlePlayBlack,
+    .appStoreBlack{
+    width: 10.7rem;
+    min-height: auto;
+    }
+    .mockupOne{
+        width: 97%;
+    }
+}
+
+  @media screen and (max-width: 680px) {
+    .HeroCont{
+        padding: 1rem 2.5rem 0.1rem 3rem;
+    
+        
+    }
+    .HeroLeft{
+        font-size: 35px;
+    }
+   
+    .heroSpanText{
+        padding-top: 0;
+        color: #202046;
+        font-weight: 600;
+    }
+    .HeroMediumText{
+        font-size: 1rem;
+    }
+    .HeroBtnLinks{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 15px;
+        padding: 12px 0px;
+    }
+    .googlePlayBlack,
+    .appStoreBlack{
+    width: 9.5rem;
+    min-height: auto;
+    }
+    .mockupOne{
+        width: 97%;
+    }
+  }
+
+   @media screen and (max-width: 480px) {
+    .HeroCont{
+        padding: 1rem 2rem 0.1rem 2.5rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;        
+    }
+    .HeroLeft{
+        font-size: 42px;
+        width: 100%;
+
+    }
+   
+    .heroSpanText{
+        padding-top: 0;
+        color: #202046;
+        font-weight: 600;
+    }
+    .HeroMediumText{
+        font-size: 1.2rem;
+    }
+    .HeroBtnLinks{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        column-gap: 20px;
+        padding: 12px 0px;
+    }
+    .googlePlayBlack,
+    .appStoreBlack{
+    width: 11.7rem;
+    min-height: auto;
+    }
+    .mockupOne{
+        width: 97%;
+    }
+  }

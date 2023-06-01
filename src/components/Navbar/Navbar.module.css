@@ -1,0 +1,161 @@
+.NavCont{
+  /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins";
+    color: #4a4a4a;
+    padding: 1rem 8.5rem 0.5rem 9rem;
+    padding-top: 1.5rem;
+    border: 1px solid #E6DCEE;
+    position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  background-color: #fff;
+
+    
+}
+.hamburger-menu,
+.hamburger-icon{
+  display: none;
+}
+.NavLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.NavList{
+    position: relative;
+    padding: 0 1.8rem;
+    list-style-type: none;
+    display: inline-block;
+
+}
+.NavItem{
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.NavItem:hover{
+    color: #0055d7
+}
+/* Style The Dropdown Button */
+.NavItem {
+    /* background-color: #4CAF50; */
+    color: #4a4a4a;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    border: 1px solid #E6DCEE;
+    border-radius: 10px;
+    background-color: #fff;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    padding: 10px 0px;
+
+  }
+  
+  /* Links inside the dropdown */
+  .dropdownContent a {
+    color: #4a4a4a;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdownContent a:hover {background-color: #f6ecff; }
+  
+  /* Show the dropdown menu on hover */
+  .NavList:hover .dropdownContent {
+    display: block;
+  }
+  /* .arrowRyt{display: none;} */
+  .arrowRyt{
+        color: #8f00ff;
+        font-size: 1.6rem;
+        font-weight: 600;
+        position: absolute;
+        top: 1.1rem;
+        right: 0.7rem;
+  }
+  @media screen and (max-width: 1440px) {
+    
+  }
+  @media screen and (max-width: 780px) {
+    .NavCont{
+      /* width: 80%; */
+        padding: 1rem 2.5rem 0.5rem 3rem;
+        padding-top: 1.5rem;
+        border: 1px solid #E6DCEE;
+      
+    }   
+  }
+  @media screen and (max-width: 680px) {
+    .NavCont{
+        padding: 1rem 1.5rem 0.5rem 1.5rem;
+        padding-top: 1.5rem;
+        border: 1px solid #E6DCEE;  
+    }  
+    .NavList{
+      position: relative;
+      padding: 0 1.2rem;
+      list-style-type: none;
+      display: inline-block;
+  }
+
+  }
+   @media screen and (max-width: 480px) {
+    
+.NavLinks{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.NavList{
+    position: relative;
+    padding: 0 1.8rem;
+    list-style-type: none;
+    display: inline-block;
+
+}
+.hamburger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navigation-menu {
+  /* Styling for the navigation menu */
+}
+  }
+  

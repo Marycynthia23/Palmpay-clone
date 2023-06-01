@@ -1,0 +1,181 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+footer div {
+  flex: 1;
+  text-align: center;
+}
+.DownloadCont{
+    margin: 0;
+    padding: 0;
+    min-height: 60vh;
+    font-family: "Poppins";
+    padding: 2rem 8rem 0rem 9.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.DownloadContLeft{
+    width: 50%;
+    font-size: 52px;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.DownloadHeader{
+    font-size: 42px;
+    font-weight: 600;
+    color: #595757;
+    margin-bottom: 7px;
+}
+.DownloadContText{
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #595757;
+    margin-bottom: 35px;
+}
+.DownloadBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 83%;
+}
+.googlePlayBlack,
+.appStoreBlack{
+width: 230px;
+height: 63px;
+margin: 8px 0;
+}
+.DownloadMiniCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DownloadSmallText{
+    font-size: 15px;
+    line-height: 37px;
+    font-weight: 400;
+    color: #595757;
+    margin-bottom: 7px;
+}
+.DownloadContRight{
+    width: 42%;
+}
+@media screen and (max-width: 780px) {
+    
+      .DownloadCont{
+          padding: 2rem 2.5rem 0rem 3.5rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      
+      
+      }
+      .DownloadContLeft{
+          width: 50%;
+          font-size: 52px;
+          text-align: left;
+          margin-bottom: 4rem;
+      }
+      .DownloadHeader{
+          font-size: 36px;
+          font-weight: 600;
+          color: #595757;
+          margin-bottom: 7px;
+      }
+      .DownloadContText{
+          font-size: 18px;
+          line-height: 27px;
+          margin-bottom: 15px;
+      }
+      .DownloadBox{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 83%;
+      }
+      .googlePlayBlack,
+      .appStoreBlack{
+      width:140px;
+      height: 38px;
+      margin: 8px 0;
+      }
+      .DownloadMiniCont{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+      .DownloadSmallText{
+          font-size: 15px;
+          line-height: 37px;
+      }
+      .DownloadContRight img{
+          width: 92%;
+      }
+      
+      
+}
+@media screen and (max-width: 480px) {
+    
+    .DownloadCont{
+        padding: 2rem 2.5rem 0rem 3.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    
+    
+    }
+    .DownloadContLeft{
+        width: 100%;
+        font-size: 52px;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .DownloadHeader{
+        font-size: 36px;
+        font-weight: 600;
+        color: #595757;
+        margin-bottom: 7px;
+        text-align: center;
+
+    }
+    .DownloadContText{
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+    .DownloadBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 83%;
+    }
+    .googlePlayBlack,
+    .appStoreBlack{
+    width:140px;
+    height: 38px;
+    margin: 8px 0;
+    }
+    .DownloadMiniCont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .DownloadSmallText{
+        font-size: 15px;
+        line-height: 37px;
+    }
+    .DownloadContRight{
+        width: 92%;
+    }
+    
+    
+}
