@@ -3,13 +3,13 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
 import './Card.css'
-import gplay from '../../Images/gplay.png'
-import ios from '../../Images/ios.png'
-import Wstar from '../../Images/whitestar.png'
+// import gplay from '../../Images/gplay.png'
+// import ios from '../../Images/ios.png'
+// import Wstar from '../../Images/whitestar.png'
 import Ystar from '../../Images/yellowstar.png'
 import user1 from '../../Images/user1.png'
-import user2 from '../../Images/O.png'
-import user3 from '../../Images/user3.png'
+// import user2 from '../../Images/O.png'
+// import user3 from '../../Images/user3.png'
 
 
 const Card = () => {
@@ -55,7 +55,7 @@ const Card = () => {
         <Slider {...settings}>
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt="" /> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
                     <img src={Ystar}/>
@@ -65,7 +65,7 @@ const Card = () => {
             </div>
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
                     <img src={Ystar}/>
@@ -74,7 +74,7 @@ const Card = () => {
                 <p className='FeedBackComment'>This app is amazing, they are never out of rewards, coupons for transactions.</p>
             </div><div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
                     <img src={Ystar}/>
@@ -86,7 +86,7 @@ const Card = () => {
         
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
                     <img src={Ystar}/>
@@ -96,19 +96,19 @@ const Card = () => {
             </div>
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>I have never ever seen an online app that works smoothly without any hitches like PalmPay</p>
             </div><div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users'alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app called palmpay is an amazing app that I love to use daily unlike others that charge too much</p>
@@ -117,29 +117,29 @@ const Card = () => {
         
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app is amazing, they are never out of rewards, coupons for transactions.</p>
             </div>
             <div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>I have never ever seen an online app that works smoothly without any hitches like PalmPay</p>
             </div><div className='FeedBackPersonCont'>
                 <div className='CommentInfo'>
-                <img src={user1} className='Users'/> 
+                <img src={user1} className='Users' alt=""/> 
                 <div>
                     <p className='FeedBackPerson'>Sani Musa</p>
-                    <img src={Ystar}/>
+                    <img src={Ystar} alt=""/>
                 </div>
                 </div>
                 <p className='FeedBackComment'>This app called palmpay is an amazing app that I love to use daily unlike others that charge too much</p>

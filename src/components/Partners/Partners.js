@@ -27,30 +27,30 @@ const Partners = () => {
     <div className={styles.PartnerCont}>
         <p className={styles.PartnerHeader}>Our Partners</p>
         <div className={styles.PartnerRowOne}>
-            <img src={partner11}/>
-            <img src={partner12}/>
-            <img src={partner13}/>
-            <img src={partner14}/>
-            <img src={partner15}/>
-            <img src={partner16}/>
+            <img src={partner11} alt=""/>
+            <img src={partner12} alt=""/>
+            <img src={partner13} alt=""/>
+            <img src={partner14} alt=""/>
+            <img src={partner15} alt=""/>
+            <img src={partner16} alt=""/>
         </div>
         <div className={styles.PartnerRowTwo}>
-            <img src={partner21}/>
-            <img src={partner22}/>
-            <img src={partner23}/>
-            <img src={partner24}/>
-            <img src={partner25}/>
-            <img src={partner26}/>
-            <img src={partner27}/>
+            <img src={partner21} alt=""/>
+            <img src={partner22} alt=""/>
+            <img src={partner23} alt=""/>
+            <img src={partner24} alt=""/>
+            <img src={partner25} alt=""/>
+            <img src={partner26} alt=""/>
+            <img src={partner27} alt=""/>
         </div>
         <div className={styles.PartnerRowThree}>
-            <img src={partner31}/>
-            <img src={partner32}/>
-            <img src={partner33}/>
-            <img src={partner34}/>
-            <img src={partner35}/>
-            <img src={partner36}/>
-            <img src={partner37}/>
+            <img src={partner31} alt=""/>
+            <img src={partner32} alt=""/>
+            <img src={partner33} alt=""/>
+            <img src={partner34} alt=""/>
+            <img src={partner35} alt=""/>
+            <img src={partner36} alt=""/>
+            <img src={partner37} alt=""/>
         </div>
     </div>
   )

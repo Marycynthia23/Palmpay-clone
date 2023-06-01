@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React from 'react'
 import styles from './FeedBack.module.css'
 import gplay from '../../Images/gplay.png'
 import ios from '../../Images/ios.png'
@@ -31,13 +31,13 @@ const FeedBack = () => {
     <h1 className={styles.FeedBackHeader}>See what customers have to say</h1>
     <div className={styles.FeedBackOSCont}>
         <div className={styles.FeedBackGoogleCont}>
-            <img src={gplay}/><p className={styles.Rating}><span className={styles.boldNo}>4.6</span>/5 rating</p><img src={Wstar}/> 
+            <img src={gplay} alt=""/><p className={styles.Rating}><span className={styles.boldNo}>4.6</span>/5 rating</p><img src={Wstar}/> 
         </div>
         <div className={styles.verticalLine}></div>
         <div className={styles.FeedBackAppleCont}>
-            <img src={ios}/>
+            <img src={ios} alt=""/>
             <p className={styles.Rating}><span className={styles.boldNo}>4.1</span>/5 rating</p>
-            <img src={Wstar}/>
+            <img src={Wstar} alt=""/>
         </div>
     </div>
     <div className={styles.CardCont}>

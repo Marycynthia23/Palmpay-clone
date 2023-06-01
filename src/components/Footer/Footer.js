@@ -14,8 +14,8 @@ const Footer = () => {
     <div className={styles.FooterCont}>
         <div className={styles.Col}>
             <li className={styles.FooterHeader}>Contact us</li>
-            <li className={styles.ColList}><a className={styles.ColLink}><span style={{color: '#363636'}}>Email:</span> support@palmpay.com</a></li>
-            <li className={styles.ColList}><a className={styles.ColLink}><span style={{color: '#363636'}}>Phone:</span> 018886888</a></li>
+            <li className={styles.ColList}><a href="mailto:palmpay.com" className={styles.ColLink}><span style={{color: '#363636'}}>Email:</span> support@palmpay.com</a></li>
+            <li className={styles.ColList}><a href="***" className={styles.ColLink}><span style={{color: '#363636'}}>Phone:</span> 018886888</a></li>
             <div className={styles.Socials}>
             <div className={styles.SocialMedia}><FaFacebookF style={{color:'#8f00ff', fontSize: '28px'}} /></div>
             <div className={styles.SocialMedia}><AiFillInstagram style={{color:'#8f00ff' , fontSize: '28px'}} /></div>
@@ -27,27 +27,27 @@ const Footer = () => {
         </div>
         <div className={styles.Col}>
         <li className={styles.FooterHeader}>Personal</li>
-        <li className={styles.ColList}><a className={styles.ColLink}>PalmPay App</a></li>
+        <li className={styles.ColList}><a href="" className={styles.ColLink}>PalmPay App</a></li>
 
         </div>
         <div className={styles.Col}>
         <li className={styles.FooterHeader}>Agents</li>
-        <li className={styles.ColList}><a className={styles.ColLink}>POS</a></li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Apply Now</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>POS</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Apply Now</a></li>
 
         </div>
         <div className={styles.Col}>
         <li className={styles.FooterHeader}>Company</li>
-        <li className={styles.ColList}><a className={styles.ColLink}>About us</a></li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Career</a></li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Blog</a></li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Press</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>About us</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Career</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Blog</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Press</a></li>
 
         </div>
         <div className={styles.Col}>
         <li className={styles.FooterHeader}>Legal</li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Privacy & Cookie Policy</a></li>
-        <li className={styles.ColList}><a className={styles.ColLink}>Terms & Conditions</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Privacy & Cookie Policy</a></li>
+        <li className={styles.ColList}><a href="***" className={styles.ColLink}>Terms & Conditions</a></li>
         </div>
 
     </div>
