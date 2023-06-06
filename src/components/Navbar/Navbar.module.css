@@ -1,5 +1,4 @@
 .NavCont{
-  /* width: 80%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,8 +15,7 @@
 
     
 }
-.hamburger-menu,
-.hamburger-icon{
+.hamburgerMenu{
   display: none;
 }
 .NavLinks{
@@ -42,6 +40,7 @@
 .NavItem:hover{
     color: #0055d7
 }
+
 /* Style The Dropdown Button */
 .NavItem {
     /* background-color: #4CAF50; */
@@ -107,7 +106,23 @@
         padding-top: 1.5rem;
         border: 1px solid #E6DCEE;
       
-    }   
+    }  
+    .NavLinks{
+      display: none;
+    } 
+    .hamburgerMenu {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      /* background-color: #333; */
+      /* border-radius: 50%; */
+      cursor: pointer;
+    }
+    .NavLinks{
+      display: none;
+    } 
   }
   @media screen and (max-width: 680px) {
     .NavCont{
@@ -120,6 +135,16 @@
       padding: 0 1.2rem;
       list-style-type: none;
       display: inline-block;
+  }
+  .hamburgerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    /* background-color: #333; */
+    /* border-radius: 50%; */
+    cursor: pointer;
   }
 
   }
@@ -138,14 +163,14 @@
     display: inline-block;
 
 }
-.hamburger-menu {
+.hamburgerMenu {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #333;
-  border-radius: 50%;
+  /* background-color: #333; */
+  /* border-radius: 50%; */
   cursor: pointer;
 }
 
@@ -153,7 +178,5 @@
   color: #fff;
   font-size: 24px;
 }
-
-
   }
   

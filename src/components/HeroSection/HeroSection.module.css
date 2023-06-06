@@ -6,8 +6,7 @@
     font-family: "Poppins";
     color: #4a4a4a;
     padding: 1rem 8rem 0.1rem 9.2rem;
-
-    
+ 
 }
 .HeroLeft{
     width: 50%;
@@ -49,8 +48,7 @@ width: 13.7rem;
 @media screen and (max-width: 780px) {
     .HeroCont{
         padding: 1rem 2.5rem 0.1rem 3rem;
-    
-        
+       
     }
     .HeroLeft{
         font-size: 42px;
@@ -84,8 +82,7 @@ width: 13.7rem;
   @media screen and (max-width: 680px) {
     .HeroCont{
         padding: 1rem 2.5rem 0.1rem 3rem;
-    
-        
+       
     }
     .HeroLeft{
         font-size: 35px;

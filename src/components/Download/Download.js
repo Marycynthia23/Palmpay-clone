@@ -8,8 +8,6 @@ import appStoreBlack from '../../Images/appStoreBlack.png'
 
 
 
-
-
 const Download = () => {
   return (
     <div className={styles.DownloadCont}>

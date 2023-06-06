@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className={styles.LogoDiv}>
             <img src={logo} width="100%" alt=""/>
         </div>
-        <div className="hamburger-menu">
+        <div className={styles.hamburgerMenu}>
     {isOpen ? (
       <FaTimes className="hamburger-icon" onClick={toggleMenu} />
     ) : (
